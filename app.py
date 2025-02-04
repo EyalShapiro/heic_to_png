@@ -3,6 +3,7 @@ from PIL import Image
 import pillow_heif
 
 
+# todo:build gui and chnage the path to the folder and add a button to convert the files
 def convert_heic_to_png_and_replace(input_path: str):
     """ממיר קובץ HEIC ל-PNG ומחליף אותו"""
     heif_image = pillow_heif.open_heif(input_path)
