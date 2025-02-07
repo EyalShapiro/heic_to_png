@@ -1,8 +1,8 @@
-from src.HEICConverterApp import runGui  # Importing the runGui function
+from src.ConverterUiApp import main as runApp
 
 
 def main():
-    runGui()
+    runApp()
 
 
 if __name__ == "__main__":
